@@ -1,10 +1,44 @@
+# 依赖
+node_modules/
+.pnpm-store/
 
+# 构建产物
+dist/
+dist-ssr/
+*.local
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# 环境变量
 .env
 .env.*
 !.env.example
+
+# 密钥
 *.pem
 *.key
-node_modules/
+
+# Python
 __pycache__/
 .venv/
 venv/
+
+# 系统
+.DS_Store
+Thumbs.db
